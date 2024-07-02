@@ -41,13 +41,13 @@
   # plain files is through 'home.file'.
   home.file = {
     # zshrc + zimfw
-    ".zshrc".source = ./.zshrc;
-    ".zimrc".source = ./.zimrc;
-    ".p10k.zsh".source = ./.p10k.zsh;
+    ".zshrc".source = ./dotfiles/.zshrc;
+    ".zimrc".source = ./dotfiles/.zimrc;
+    ".p10k.zsh".source = ./dotfiles/.p10k.zsh;
 
     # neovim
-    ".config/nvim/lua".source = ./.config/nvim/lua;
-    ".config/nvim/init.lua".source = ./.config/nvim/init.lua;
+    ".config/nvim/lua".source = ./dotfiles/.config/nvim/lua;
+    ".config/nvim/init.lua".source = ./dotfiles/.config/nvim/init.lua;
   };
 
   home.sessionVariables = {
